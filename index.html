@@ -18,8 +18,16 @@
         margin-top: 10%;
         gap: 10px;
       }
+      @media (max-width: 500px) {
+        h1.welcome {
+          text-align: center;
+          font-size: 30px;
+          position: relative;
+          top: 40px;
+        }
+      }
       .sign {
-        padding: 5px;
+        padding: 10px;
         background-color: #cc55d7;
         display: inline-block;
         border-radius: 10%;
@@ -81,7 +89,7 @@
         <p class="sign">Sign up</p>
       </div>
       <div class="standard">
-        <p>Standard Subscription</p>
+        <p class="standardP">Standard Subscription</p>
         <h1>$19.99/month</h1>
         <p>50gb storage</p>
         <p>5 user</p>
@@ -89,7 +97,7 @@
         <p class="sign">Sign up</p>
       </div>
       <div class="premium">
-        <p>Premium Subscription</p>
+        <p class="premiumP">Premium Subscription</p>
         <h1>$49.99/month</h1>
         <p>100gb storage</p>
         <p>10 user</p>
