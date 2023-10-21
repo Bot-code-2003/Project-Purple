@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subscription</title>
+    <style>
+      body {
+        background-color: #b31e6f;
+        font-family: "Josefin Sans", sans-serif;
+      }
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        position: relative;
+        align-items: center;
+        margin-top: 10%;
+        gap: 10px;
+      }
+      .sign {
+        padding: 5px;
+        background-color: #cc55d7;
+        display: inline-block;
+        border-radius: 10%;
+        border: 2px solid black;
+        margin-top: 17px;
+      }
+      .sign:hover {
+        background-color: #d773e0;
+      }
+      .basic,
+      .standard,
+      .premium {
+        background-color: #c8458d;
+        padding: 15px;
+        border-radius: 5%;
+        text-align: center;
+        margin-top: 20px;
+        width: 380px;
+        border: 2px solid;
+      }
+      .basic:hover,
+      .standard:hover,
+      .premium:hover {
+        background-color: #d7579e;
+      }
+      p {
+        padding: 7px;
+        margin: 3px;
+        font-size: medium;
+        font-weight: bold;
+      }
+      h1 {
+        margin: 2px;
+        padding: 6px;
+      }
+      h1.welcome {
+        text-align: center;
+        font-size: 60px;
+        position: relative;
+        top: 40px;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="welcome">Welcome to Project-purple</h1>
+    <div class="container">
+      <div class="basic">
+        <p>Basic Subscription</p>
+        <h1>$11.99/month</h1>
+        <p>10gb storage</p>
+        <p>1 user</p>
+        <p>Support</p>
+        <p class="sign">Sign up</p>
+      </div>
+      <div class="standard">
+        <p>Standard Subscription</p>
+        <h1>$19.99/month</h1>
+        <p>50gb storage</p>
+        <p>5 user</p>
+        <p>Phone and E-mail Support</p>
+        <p class="sign">Sign up</p>
+      </div>
+      <div class="premium">
+        <p>Premium Subscription</p>
+        <h1>$49.99/month</h1>
+        <p>100gb storage</p>
+        <p>10 user</p>
+        <p>24/7 Support</p>
+        <p class="sign">Sign up</p>
+      </div>
+    </div>
+  </body>
+</html>
